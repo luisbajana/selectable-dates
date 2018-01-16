@@ -1,0 +1,39 @@
+.datepicker{
+  color: #666;
+
+  .available {
+    color: #666;
+    background: #ACE6C4;
+  }
+  .possible {
+    color: #666;
+    background: #FDD599;
+  }
+  .occupied{
+    background: #F53980 !important;
+    color: #FDDBE8 !important;
+  }
+  .datepicker-days table {
+    width: 100%;
+  }
+  .datepicker-labels {
+    font-size: 11px;
+    margin: 15px 0 10px 0;
+  }
+  .datepicker-labels .dp-label {
+    /*color: white;*/
+    display: inline-block;
+    margin: 0 1%;
+    padding: 5px;
+  }
+
+
+  table tr td.active.active{
+    color: #ffffff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+    background-image: none;
+  }
+
+
+}
